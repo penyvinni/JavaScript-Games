@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>HSL Color Generator using JavaScript - @code.scientist x @codingtorque</title>
+</head>
+
+<body>
+    <section>
+        <div class="range">
+            <input id="hue" max="360" min="0" step="1" type="range" />
+        </div>
+        <div class="range">
+            <input id="saturation" max="100" min="0" step="0" type="range" />
+        </div>
+        <div class="range">
+            <input id="lightness" max="100" min="0" step="0" type="range" />
+        </div>
+        <p id="hslcode"></p>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
